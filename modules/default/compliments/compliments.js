@@ -5,14 +5,14 @@
  * MIT Licensed.
  */
 
-file1 = open('peddiemenu.txt','r')
+//file1 = open('peddiemenu.txt','r')
 //menu = file1.read()
 Module.register("compliments", {
 	// Module config defaults.
 	defaults: {
 		compliments: {
-			anytime: ["yo this the menu"],
-			morning: ["yoo"],
+			anytime: ["Have a Great Day!"],
+			morning: ["Good Morning!"],
 			afternoon: ["Hello, beauty!", "You look sexy!", "Looking good today!"],
 			evening: ["Wow, you look hot!", "You look nice!", "Hi, sexy!"],
 			"....-01-01": ["Happy new year!"]
